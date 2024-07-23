@@ -75,6 +75,22 @@
 		<br>
 		<br>
 		<br>
+		<a href="https://logto.io/?ref=sindre">
+			<div>
+				<picture>
+					<source width="200" media="(prefers-color-scheme: dark)" srcset="https://sindresorhus.com/assets/thanks/logto-logo-dark.svg?x">
+					<source width="200" media="(prefers-color-scheme: light)" srcset="https://sindresorhus.com/assets/thanks/logto-logo-light.svg?x">
+					<img width="200" src="https://sindresorhus.com/assets/thanks/logto-logo-light.svg?x" alt="Logto logo">
+				</picture>
+			</div>
+			<b>The better identity infrastructure for developers</b>
+			<div>
+				<sup>Logto is an open-source Auth0 alternative designed for every app.</sup>
+			</div>
+		</a>
+		<br>
+		<br>
+		<br>
 	</p>
 	<hr>
 	<br>
@@ -180,7 +196,7 @@
 
 - [webtorrent](https://github.com/webtorrent/webtorrent) - Streaming torrent client for Node.js and the browser.
 - [peerflix](https://github.com/mafintosh/peerflix) - Streaming torrent client.
-- [ipfs](https://github.com/ipfs/js-ipfs) - Distributed file system that seeks to connect all computing devices with the same system of files.
+- [ipfs](https://github.com/ipfs/helia) - Distributed file system that seeks to connect all computing devices with the same system of files.
 - [stackgl](https://github.com/stackgl) - Open software ecosystem for WebGL, built on top of browserify and npm.
 - [peerwiki](https://github.com/mafintosh/peerwiki) - All of Wikipedia on BitTorrent.
 - [peercast](https://github.com/mafintosh/peercast) - Stream a torrent video to Chromecast.
@@ -396,7 +412,8 @@
 - [Tinyhttp](https://github.com/tinyhttp/tinyhttp) - Modern and fast Express-like web framework.
 - [Marble.js](https://github.com/marblejs/marble) - Functional reactive framework for building server-side apps, based on TypeScript and RxJS.
 - [Lad](https://github.com/ladjs/lad) - Framework made by a former Express TC and Koa member that bundles web, API, job, and proxy servers.
-- [Ts.ED](https://github.com/tsedio/tsed) - Intituive TypeScript framework for building server-side apps on top of Express.js or Koa.js. 
+- [Ts.ED](https://github.com/tsedio/tsed) - Intituive TypeScript framework for building server-side apps on top of Express.js or Koa.js.
+- [Hono](https://github.com/honojs/hono) - Small and fast web framework.
 
 ### Documentation
 
@@ -435,7 +452,7 @@
 	- [More…](https://github.com/sindresorhus/promise-fun)
 - Observables
 	- [RxJS](https://github.com/ReactiveX/RxJS) - Reactive programming.
-	- [observable-to-promise](https://github.com/sindresorhus/awesome-observables) - Convert an Observable to a Promise.
+	- [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - Convert an Observable to a Promise.
 	- [More…](https://github.com/sindresorhus/awesome-observables)
 - Streams
 	- [Highland.js](https://github.com/caolan/highland) - Manages synchronous and asynchronous code easily, using nothing more than standard JavaScript and Node-like Streams.
@@ -543,6 +560,7 @@
 - [ajv](https://github.com/ajv-validator/ajv) - The fastest JSON Schema validator. Supports v5, v6 and v7 proposals.
 - [Superstruct](https://github.com/ianstormtaylor/superstruct) - Simple and composable way to validate data in JavaScript (and TypeScript).
 - [yup](https://github.com/jquense/yup) - Object schema validation.
+- [zod](https://github.com/colinhacks/zod) - TypeScript-first schema validation with static type inference.
 
 ### Parsing
 
@@ -618,6 +636,7 @@
 	- [TypeORM](https://github.com/typeorm/typeorm) - ORM for PostgreSQL, MariaDB, MySQL, SQLite, and more.
 	- [MikroORM](https://github.com/mikro-orm/mikro-orm) - TypeScript ORM based on Data Mapper, Unit of Work and Identity Map patterns. Supports MongoDB, PostgreSQL, MySQL and SQLite.
 	- [Prisma](https://github.com/prisma/prisma) - Modern database access (ORM alternative). Auto-generated and type-safe query builder in TypeScript. Supports PostgreSQL, MySQL & SQLite.
+ 	- [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) - TypeScript ORM that supports various databases such as PostgreSQL.
 - Query builder
 	- [Knex](https://github.com/knex/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
 - Other
@@ -710,6 +729,7 @@
 - [sqs-consumer](https://github.com/bbc/sqs-consumer) - Build Amazon Simple Queue Service (SQS) based apps without the boilerplate.
 - [better-queue](https://github.com/diamondio/better-queue) - Simple and efficient job queue when you cannot use Redis.
 - [bullmq](https://github.com/taskforcesh/bullmq) - Persistent job and message queue.
+- [bree](https://github.com/breejs/bree) - Job task scheduler with worker threads, cron, date, and human syntax support.
 
 ### Node.js management
 
@@ -768,6 +788,7 @@
 - [Strapi](https://github.com/strapi/strapi) - Content Management Framework (headless-CMS) to build powerful APIs.
 - [Factor](https://github.com/FactorJS/factor) - Vue.js dashboard framework and headless CMS.
 - [AdminBro](https://github.com/SoftwareBrothers/adminjs) - Auto-generated admin panel with CRUD for all your resources.
+- [Graphweaver](https://github.com/exogee-technology/graphweaver) - CMS and headless GraphQL API.
 
 ### Forum
 
@@ -823,7 +844,7 @@
 - [@sindresorhus/is](https://github.com/sindresorhus/is) - Type check values.
 - [env-dot-prop](https://github.com/simonepri/env-dot-prop) - Get, set, or delete nested properties of process.env using a dot path.
 - [node-video-lib](https://github.com/gkozlenko/node-video-lib) - Pure JavaScript library for working with MP4 and FLV video files and creating MPEG-TS chunks for HLS streaming.
-- [basic-ftp](https://github.com/patrickjuchli/basic-ftp) – FTP/FTPS client.
+- [basic-ftp](https://github.com/patrickjuchli/basic-ftp) - FTP/FTPS client.
 - [cashify](https://github.com/xxczaki/cashify) - Currency conversion.
 - [genepi](https://github.com/Geode-solutions/genepi) - Automatically generate a native Node.js addon from C++ code.
 - [husky](https://github.com/typicode/husky) - Create Git hook scripts.
@@ -837,7 +858,7 @@
 - [npm](https://docs.npmjs.com/about-npm) - The default package manager.
 - [pnpm](https://pnpm.io) - Disk space efficient package manager.
 - [yarn](https://yarnpkg.com) - Alternative package manager.
-- [bun](https://bun.sh) - All-in-one toolkit for JavaScript and TypeScript apps. 
+- [bun](https://bun.sh) - All-in-one toolkit for JavaScript and TypeScript apps.
 
 ## Resources
 
